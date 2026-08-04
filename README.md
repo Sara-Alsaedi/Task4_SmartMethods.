@@ -25,10 +25,10 @@ source /opt/ros/noetic/setup.bash
 
 ⚠️ 3. Issue & Solution (Python Version Mismatch)
 
-### Issue:
+# Issue:
 I encountered an ImportError while running ROS because the Python version used by my system did not match the version required by ROS. This caused ROS packages (such as rclpy) to fail during import.
 
-### Solution:
+# Solution:
 I unified the Python version by installing the correct Python release and selecting it as the default:
 
 sudo apt install python3
